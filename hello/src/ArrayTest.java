@@ -3,6 +3,7 @@ public class ArrayTest {
         MyTools mt = new MyTools();
         int[] arr = {10, -1, 8, 0, 34};
         mt.bubble(arr);
+        int abc;
         System.out.println("===================");
         for (int i = 0; i < arr.length - 1; i++) {
             System.out.print(arr[i] + "\t");
