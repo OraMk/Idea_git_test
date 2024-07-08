@@ -1,11 +1,11 @@
-package The_First_week.HandWriting_JDBC;
+package HandWriting_JDBC;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-public class BasicConnection implements Pool_Interface{
+public class BasicConnection implements The_First_week.HandWriting_JDBC.Pool_Interface {
     private String url;
     private String username;
     private String password;
