@@ -16,7 +16,7 @@ class MyTools {
 
     public void bubble(int[] arr) {
         int temp;
-        int main;
+        int max;
         int comm = 100;
         for (int i = 0; i < arr.length - 1; i++) {
 
